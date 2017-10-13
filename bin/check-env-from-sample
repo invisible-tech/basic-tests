@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+
+'use strict'
+
+const checkEnvFromSample = require('../test/checkEnvFromSample')
+require('dotenv').config()
+
+try {
+  checkEnvFromSample()
+} catch (err) {
+  console.log(err.message)
+  process.exit(1)
+}
+process.exit(0)
