@@ -1,0 +1,6 @@
+{
+  "extends": "@invisible",
+  "rules": {
+    "no-console": ["off"]
+  }
+}
