@@ -19,7 +19,7 @@
   "main": "index.js",
   "keywords": [],
   "devDependencies": {
-    "@invisible/changelog-update": "^1.0.7",
+    "@invisible/changelog-update": "^1.0.9",
     "@invisible/eslint-config": "^1.1.6",
     "@invisible/publish": "^1.1.8",
     "eslint": "^4.6.1",
