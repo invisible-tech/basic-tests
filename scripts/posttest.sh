@@ -3,8 +3,11 @@
 assert-changelog-update --quiet
 status=$?
 
+assert-version-bump --quiet
+status=$(( $status + $? ))
+
 nsp check
-status=( $status + $? )
+status=$(( $status + $? ))
 
 if [ $status -eq 0 ]
 then
