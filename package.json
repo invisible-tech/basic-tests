@@ -1,10 +1,10 @@
 {
   "name": "@invisible/basic-tests",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Basic tests for your project: requiring each file and testing environment variables",
   "engines": {
-    "node": "^8.5.0"
+    "node": "^8.9.0"
   },
   "bin": {
     "check-env-from-sample": "bin/check-env-from-sample",
@@ -19,7 +19,7 @@
   "main": "index.js",
   "keywords": [],
   "devDependencies": {
-    "@invisible/changelog-update": "^1.0.7",
+    "@invisible/changelog-update": "^1.0.9",
     "@invisible/eslint-config": "^1.1.6",
     "@invisible/publish": "^1.1.8",
     "eslint": "^4.6.1",

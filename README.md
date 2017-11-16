@@ -1,5 +1,7 @@
 # @invisible/basic-tests
 
+[![CircleCI](https://circleci.com/gh/invisible-tech/basic-tests/tree/master.svg?style=svg)](https://circleci.com/gh/invisible-tech/basic-tests/tree/master)
+
 > Basic tests for your project: requiring each file and testing environment variables
 
 ## Installation

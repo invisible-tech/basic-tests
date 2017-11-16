@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@invisible/changelog-update@^1.0.7":
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/@invisible/changelog-update/-/changelog-update-1.0.7.tgz#36ab19a4b75112a2d69a1ad8cea21d02536737db"
+"@invisible/changelog-update@^1.0.9":
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/@invisible/changelog-update/-/changelog-update-1.0.9.tgz#0e70fd9ed117a2d4156cadec478bd61e1b0ab560"
   dependencies:
     common-tags "^1.4.0"
     cross-spawn "^5.1.0"

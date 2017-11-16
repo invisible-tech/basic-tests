@@ -11,8 +11,12 @@ machine:
   environment:
     # For yarn
     PATH: "${PATH}:${HOME}/${CIRCLE_PROJECT_REPONAME}/node_modules/.bin"
+
+    NODE_ENV: test
+    LOGGER_LEVEL: silly
+
   node:
-    version: "8.5.0"
+    version: "8.9.0"
 
 test:
   override:
