@@ -16,7 +16,8 @@ const checkRequireAllFiles = () => {
   const ignore = ig()
   ignore.add(fs.readFileSync(path.join(appRootDir, '.gitignore')).toString())
   ignore.add('test/**')
-  const files = sync(['**/*.js'], { ignore })
+  ignore.add('src/global.d.ts')
+  const files = sync(['**/*.js', '**/*.ts'], { ignore })
   assert(files.length > 0, 'no files found!')
   const getFilenameIfUnrequirable = filename => {
     const fullPath = path.join(appRootDir, filename)
