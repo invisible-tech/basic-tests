@@ -1,7 +1,7 @@
 {
   "name": "@invisible/basic-tests",
   "license": "MIT",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Basic tests for your project: requiring each file and testing environment variables",
   "engines": {
     "node": "^8.9.0"

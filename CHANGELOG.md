@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.3] - 2018-07-09
+### Internal
+- Update CircleCI to version 2
+
 ## [1.0.2] - 2018-05-14
 ### Chore
 - Add .ts files and ignore global.d.ts
