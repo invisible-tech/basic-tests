@@ -12,4 +12,3 @@ describe('env', () => {
 describe('dependencies', () => {
   it('should be able to require all files', checkRequireAllFiles)
 })
-

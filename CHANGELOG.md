@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0] - 2018-12-26
+### Internal
+- Update dependencies
+- Lift node version restriction
+- Migrate from yarn to npm
+- Use npm audit instead of nsp
+
 ## [1.0.3] - 2018-07-09
 ### Internal
 - Update CircleCI to version 2

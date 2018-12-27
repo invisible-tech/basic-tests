@@ -1,9 +1,9 @@
 'use strict'
 
 const assert = require('assert')
-const dotenv = require('dotenv')
 const fs = require('fs')
 const path = require('path')
+const dotenv = require('dotenv')
 const appRootDir = require('app-root-dir').get()
 const checkEnv = require('check-env')
 const { keys } = require('lodash/fp')

@@ -6,7 +6,7 @@ status=$?
 assert-version-bump --quiet
 status=$(( $status + $? ))
 
-nsp check
+npm audit
 status=$(( $status + $? ))
 
 if [ $status -eq 0 ]
