@@ -1,10 +1,10 @@
 'use strict'
 
-const appRootDir = require('app-root-dir').get()
 const assert = require('assert')
 const fs = require('fs')
-const ig = require('ignore')
 const path = require('path')
+const ig = require('ignore')
+const appRootDir = require('app-root-dir').get()
 
 const { sync } = require('glob-gitignore')
 const {
